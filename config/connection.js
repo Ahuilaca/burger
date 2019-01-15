@@ -19,5 +19,6 @@ if (process.env.JAWS_URL) {
         if (err) throw err;
         console.log("Connected as id: " + connection.threadId);
     });
+    
 
     module.exports = connection;
